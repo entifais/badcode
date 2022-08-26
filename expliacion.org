@@ -1,0 +1,39 @@
+* BadCode
+
+dado un string y un alphabeto que palabraS pude generar
+
+(la expliacion parte de la base que uds a leido el problema)
+*** caso de prueba 2
+con el caso de prubeba 2 uno se da cuenta que es un dfs en un arbol
+
+por que en las respuestas se va devolviendo
+
+
+ O    O   O   x
+
+(10)(10)(10)(1)
+
+ O    O   x  x
+
+(10)(10)(1)0(1)
+
+ O   x   O   x
+
+(10)(1)0(10)(1)
+
+
+con esto me doy cuenta que es un arbol y se va devolviendo con dfs
+
+es una arbol-n-ario por que se recorre como un arbol y cada nodo seria los caracteres y como no simpre los caracteres son 2, es n-ario
+
+*** el proceso es:
+
+evaluar el primer caracter y  ver si esta en los hijos, que son los n caracteres dados
+
+si no esta en el primer caracter dado, siga (esta parte ayuda al orden)
+
+y si no esta borre, y siga
+
+
+
+
