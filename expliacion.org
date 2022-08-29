@@ -8,6 +8,8 @@ con el caso de prubeba 2 uno se da cuenta que es un dfs en un arbol
 
 por que en las respuestas se va devolviendo
 
+10:0
+1:X
 
  O    O   O   x
 
